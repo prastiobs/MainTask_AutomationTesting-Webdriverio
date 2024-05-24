@@ -1,0 +1,16 @@
+{
+  "name": "maintask_wdio",
+  "version": "1.0.0",
+  "description": "sanbercode tugas akhir",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "Prastio",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.36.1",
+    "cucumber": "^6.0.7",
+    "webdriverio": "^8.36.1"
+  }
+}
